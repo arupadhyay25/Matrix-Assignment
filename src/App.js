@@ -1,10 +1,7 @@
 import React from 'react';
-import LandingPage from './TokenAddress';
-import Banner from './Banner';
+import { MainRoutes } from './Pages/MainRoutes';
 import { Box } from '@chakra-ui/react';
-import Footer from './Footer';
-import Sidebar from './Sidebar';
-import { MainRoutes } from './MainRoutes';
+import Sidebar from './Components/Sidebar';
 
 function App() {
   return (
@@ -14,8 +11,8 @@ function App() {
       pl={['10px', '20px', '20px']}
       pr={['10px', '20px', '20px']}
     >
-      <Sidebar/>
-      <MainRoutes/>
+      <Sidebar />
+      <MainRoutes />
     </Box>
   );
 }
